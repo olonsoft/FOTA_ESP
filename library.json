@@ -1,0 +1,22 @@
+{
+  "name": "FOTA_ESP",
+  "version": "1.0.0",
+  "keywords": "FOTA, firmware, esp8266, esp32",
+  "description": "firmware over the air for my ESP8266/ESP32 projects",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/olonsoft/FOTA_ESP.git"
+  },  
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "authors": {
+      "name": "Dimitris Paterakis",
+      "email": "dimitris19@gmail.com",
+      "url": "http://paterakis.eu",
+      "maintainer": true
+  },
+  "examples": [
+      "examples/*/*.ino"
+  ]
+}
