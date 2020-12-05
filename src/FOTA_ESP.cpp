@@ -3,7 +3,7 @@
 #include <ArduinoJson.h>
 #include <helper.h>
 
-#define FOTA_STR "[FOTA] "
+#define FOTA_STR "[\e[32mFOTA\e[m] "
 
 #ifdef ESP8266    
   #define ESP_UPD ESPhttpUpdate
