@@ -19,7 +19,7 @@ about where to find the new firmware binaries:
 
 Binaries URLs (for the firmware and the FS file system) are relative 
 to the server URL, so following with the example, the device will first 
-download the SPIFFS binary from:
+download the FileSystem binary from:
 
 http://192.168.1.10/firmwares/myapp-0.1.1-fs.bin
 
