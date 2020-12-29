@@ -134,7 +134,7 @@ bool FOTAClientClass::checkUpdates() {
         return false;
     }
     if (doc.size() == 0) {
-        snprintf_P(buffer, sizeof(buffer), PSTR("%sUpToDate.\n"), FOTA_STR);
+        snprintf_P(buffer, sizeof(buffer), PSTR("%sEmpty file.\n"), FOTA_STR);
         _doCallback(FOTA_UPTODATE, buffer);
         return false;
     }
