@@ -3,7 +3,15 @@
 #include <ArduinoJson.h>
 #include <helper.h>
 
+#ifndef COLORED_TERMINAL
+#define COLORED_TERMINAL
+#endif
+
+#ifdef COLORED_TERMINAL
 #define FOTA_STR "[\e[32mFOTA\e[m] "
+#else
+#define FOTA_STR "[FOTA] "
+#endif
 
 #ifdef ESP8266    
   #define ESP_UPD ESPhttpUpdate
