@@ -3,11 +3,11 @@
 #include <ArduinoJson.h>
 #include <helper.h>
 
-#ifndef COLORED_TERMINAL
-#define COLORED_TERMINAL
+#ifndef TERMINAL_IN_COLOR
+// #define TERMINAL_IN_COLOR
 #endif
 
-#ifdef COLORED_TERMINAL
+#ifdef TERMINAL_IN_COLOR
 #define FOTA_STR "[\e[32mFOTA\e[m] "
 #else
 #define FOTA_STR "[FOTA] "
