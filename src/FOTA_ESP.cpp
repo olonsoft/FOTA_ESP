@@ -1,7 +1,7 @@
 #include "FOTA_ESP.h"
 #include <functional>
 #include <ArduinoJson.h>
-#include <helper.h>
+#include <helper_general.h>
 
 #define FOTA_STR "[\e[32mFOTA\e[m] "
 
